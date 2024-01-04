@@ -1,10 +1,12 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const express = require('express');
 const app = express();
 
 
 app.use(express.static(path.join(__dirname, 'public')));
+PORT = 3000
 
 module.exports = {
     entry: './src/index.js',
@@ -44,7 +46,6 @@ module.exports = {
                   {
                     loader: 'url-loader',
                     options: {
-                      limit: 10000000, // or use file-loader for larger files
                       name: 'images/[hash].[ext]',
                     },
                   },
@@ -66,8 +67,9 @@ module.exports = {
         static: {
       directory: path.join(__dirname, 'public'),
          },
-        port: 3000,
+        port: 8080,
         open: true,
+        historyApiFallback: true,
       },
 
 

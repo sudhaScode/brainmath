@@ -32,12 +32,11 @@
     list-style: none;
 }
 .clicked{
-    size: 20px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 900;
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
     background-color: #ea6d00;
-    font-family:'Times New Roman', Times, serif;
+    font-family: fantasy;
 }

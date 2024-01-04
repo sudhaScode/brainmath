@@ -35,7 +35,7 @@ function Addition() {
         function comparator(value, val1, val2) {
             
             if (value == (val1 + val2)) {
-                console.log(val1+" "+val2);
+                //console.log(val1+" "+val2);
                 setIsEqual(true);
             }
         }
@@ -48,15 +48,12 @@ function Addition() {
         const validation = (num) => {
             if (num / 2 > 0 && num.length != null) {
                 setIsValid(true);
-                console.log("num "+num);
+                //console.log("num "+num);
                 inputHandler(num);
             }
 
         }
 
-        console.log("isEqual "+isEqual);
-        console.log("isValid "+isValid);
-        console.log("result "+result);
         window.addEventListener('keydown', handleKeyDown);
 
        return () => {
