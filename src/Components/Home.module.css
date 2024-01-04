@@ -1,0 +1,43 @@
+.home{
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 40rem;
+}
+.ui{
+    list-style: none;
+}
+
+.actions{
+    display: inline-flex;
+    list-style: none;
+    flex-direction: row;
+}
+.type{
+    padding:5%;
+    padding-left: 0%;
+    padding-top: 20%;
+}
+.click{
+    size: 20px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.value{
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+.clicked{
+    size: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #ea6d00;
+    font-family:'Times New Roman', Times, serif;
+}
