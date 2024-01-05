@@ -8,7 +8,8 @@ body, html, #root {
   background-repeat: no-repeat;
   height: 100vh;
   display: flex;
-  flex-direction: column;
   margin: 0%;
   padding: 0;
+  width: 100vw;
+  object-fit: cover;
   }

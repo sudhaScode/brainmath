@@ -22,9 +22,10 @@ body, html, #root {
   background-repeat: no-repeat;
   height: 100vh;
   display: flex;
-  flex-direction: column;
   margin: 0%;
   padding: 0;
+  width: 100vw;
+  object-fit: cover;
   }
 
 
@@ -156,10 +157,8 @@ display: inline-block;
 .IX9FOOSrpK3BYUe8N1e1{
     padding:5%;
     padding-left: 0%;
-    padding-top: 10%;
 }
 .PlcH7fv_EbAKEen29I7V{
-    
     font-size: 25px;
     padding: 10px;
     border-radius: 10px;
