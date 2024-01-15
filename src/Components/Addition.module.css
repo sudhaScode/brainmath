@@ -1,4 +1,6 @@
+@media screen and (max-width:768) {
 
+}
 
 .part{
    margin: 2rem auto;
@@ -10,9 +12,8 @@
 .level{
    list-style: none;
    display: flex;
-   justify-content: center;
-   gap: 30px; 
-   padding: 0; /* Reset padding */
+   justify-content: space-between; 
+   padding: 10px; /* Reset padding */
   margin: 0; /* Reset margin */
 }
 
@@ -20,13 +21,13 @@
    cursor: pointer;
    border: none;
    border-radius: 2rem;
-   font-size: 15px;
+   font-size: 20px;
    background-color: transparent; 
 }
 .clicked{
    border-radius: 2rem ; 
    border: none;
-   font-size: 25px;
+   font-size: 35px;
    background-color: transparent; 
    color: rgb(234, 85, 224);
    font-family: fantasy;

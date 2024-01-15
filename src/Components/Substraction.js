@@ -30,12 +30,21 @@ function Substraction() {
             if (event.key === "Enter") {
                 validation(event.target.value);
             }
+            
         }
 
         function comparator(value, val1, val2) {
+            console.log(value +" "+ val1+" "+ val2 )
+            if(val1<val2){
+                let tmp  = val1
+                val1 = val2
+                val2 = tmp
+            }
+            console.log(value +" "+ val1+" "+ val2 )
             if (value == (val1 - val2)) {
                 setIsEqual(true);
             }
+            console.log("IsEqual"+ isEqual)
         }
     
         const inputHandler = (value) => {
@@ -48,6 +57,8 @@ function Substraction() {
                 setIsValid(true);
                 inputHandler(num);
             }
+            console.log("isValid"+ isValid)
+            console.log("result"+ result)
         }
         window.addEventListener('keydown', handleKeyDown);
 
@@ -57,6 +68,7 @@ function Substraction() {
 
 
     },[numberOne,numberTwo]);
+   
 
     const continueHandler = () => {
         setIsEqual(false);
@@ -105,8 +117,8 @@ function Substraction() {
                 </ul>
 
                 <input placeholder={'Enter answer'} className={classes.enter}/>
-                {isEqual && isValid && <h2 className={classes.result}>{`Cheers ${result} is currect`} </h2>}
-                {!isEqual && result && <h2 className={classes.wrong}>{`Ohh! ${result} is not currect`}</h2>}
+                {isEqual && isValid && <h2 className={classes.result}>{`Cheers ${result} is correct`} </h2>}
+                {!isEqual && result && <h2 className={classes.wrong}>{`Ohh! ${result} is not correct`}</h2>}
                 
                 {isEqual &&
                 <div className={classes.submit}>

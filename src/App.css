@@ -1,5 +1,7 @@
 body, html, #root {
   height: 100%;
+  padding: 0%;
+  margin: 0%;
 }
 .app-container{
   background-image: url('https://static7.depositphotos.com/1003625/752/i/450/depositphotos_7529921-stock-photo-math-symbols.jpg');
