@@ -45,7 +45,7 @@ body, html, #root {
    list-style: none;
    display: flex;
    justify-content: space-between; 
-   padding: 10px; /* Reset padding */
+   padding: 2px; /* Reset padding */
   margin: 0; /* Reset margin */
 }
 
@@ -59,7 +59,7 @@ body, html, #root {
 .EUcvvAhWqqnK0AE5XxNf{
    border-radius: 2rem ; 
    border: none;
-   font-size: 35px;
+   font-size: 30px;
    background-color: transparent; 
    color: rgb(234, 85, 224);
    font-family: fantasy;
