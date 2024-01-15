@@ -14,6 +14,8 @@ code {
 
 body, html, #root {
   height: 100%;
+  padding: 0%;
+  margin: 0%;
 }
 .app-container{
   background-image: url('https://static7.depositphotos.com/1003625/752/i/450/depositphotos_7529921-stock-photo-math-symbols.jpg');
@@ -28,7 +30,9 @@ body, html, #root {
   object-fit: cover;
   }
 
+@media screen and (max-width:768) {
 
+}
 
 .NqyhdFRRgn1_NEsGj1gm{
    margin: 2rem auto;
@@ -40,9 +44,8 @@ body, html, #root {
 .Gt9otb_aicarFVZa0zWU{
    list-style: none;
    display: flex;
-   justify-content: center;
-   gap: 30px; 
-   padding: 0; /* Reset padding */
+   justify-content: space-between; 
+   padding: 10px; /* Reset padding */
   margin: 0; /* Reset margin */
 }
 
@@ -50,13 +53,13 @@ body, html, #root {
    cursor: pointer;
    border: none;
    border-radius: 2rem;
-   font-size: 15px;
+   font-size: 20px;
    background-color: transparent; 
 }
 .EUcvvAhWqqnK0AE5XxNf{
    border-radius: 2rem ; 
    border: none;
-   font-size: 25px;
+   font-size: 35px;
    background-color: transparent; 
    color: rgb(234, 85, 224);
    font-family: fantasy;
@@ -140,25 +143,41 @@ display: inline-block;
     border: 3px rgb(255, 119, 0);  
     padding-bottom: 30px;   
 }   
-.yKAuwYihNw3wBtBXHPyA{
+@media screen and (min-width:200px) {
+    .LguXbfkDIZcPLpm3eNJJ{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media screen and (min-width:768px) {
+    .LguXbfkDIZcPLpm3eNJJ{
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+    }
+    
+}
+
+.yKAuwYihNw3wBtBXHPyA {
+
     margin: 2rem auto;
     width: 100%;
     max-width: 40rem;
 }
-.fGe3oqYt4PziMEAjJbON{
+
+.fGe3oqYt4PziMEAjJbON {
     list-style: none;
 }
 
-.LguXbfkDIZcPLpm3eNJJ{
-    display: inline-flex;
-    list-style: none;
-    flex-direction: row;
-}
-.IX9FOOSrpK3BYUe8N1e1{
-    padding:5%;
+.IX9FOOSrpK3BYUe8N1e1 {
+    padding: 5%;
     padding-left: 0%;
 }
-.PlcH7fv_EbAKEen29I7V{
+
+.PlcH7fv_EbAKEen29I7V {
     font-size: 25px;
     padding: 10px;
     border-radius: 10px;
@@ -166,16 +185,18 @@ display: inline-block;
     font-weight: 600;
 }
 
-.SgXRcstU1Llg13Jq3dLA{
+.SgXRcstU1Llg13Jq3dLA {
     align-items: center;
     display: flex;
     list-style: none;
 }
-.t1VfTdDD_c4mi3uVBfy1{
+
+.t1VfTdDD_c4mi3uVBfy1 {
     font-size: 30px;
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
     background-color: #ea6d00;
     font-family: fantasy;
+    text-transform: uppercase;
 }
