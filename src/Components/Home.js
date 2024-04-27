@@ -32,9 +32,9 @@ function Home() {
         <div className={classes.home}>
                 <ul className={classes.actions}>
                         <li className={classes.type}><button onClick={additionHandler} className={addition ? classes.clicked : classes.click}>Addition</button></li>
-                        <li className={classes.type}><button onClick={substractionHandler} className={substraction ? classes.clicked : classes.click}>Subtraction</button></li>
+                        <li className={classes.type}><button onClick={substractionHandler} className={substraction ? classes.clicked : classes.click}>Substraction</button></li>
                         <li className={classes.type}><button onClick={multiplicationHandler} className={multiplication ? classes.clicked : classes.click}>Multiplication</button></li>
-                        </ul>
+                </ul>
             <div>
                 {addition && <Addition />}
                 {substraction && <Substraction />}
