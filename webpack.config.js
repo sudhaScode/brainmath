@@ -63,7 +63,6 @@ module.exports = {
       ],
     
     devServer: {
-        historyApiFallback: true, // This enables the fallback to /index.html for single-page applications
         static: {
       directory: path.join(__dirname, 'public'),
          },

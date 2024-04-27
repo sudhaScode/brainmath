@@ -2,6 +2,8 @@
 
 }
 
+
+
 .part{
    margin: 2rem auto;
    width: 100%;
@@ -78,12 +80,16 @@ display: inline-block;
    padding: 10px;
  }
  .result{
+   margin-top: 1rem;
    display: block;
    text-align: center;
+   font-weight: bold;
  }
  .wrong{
    display: block;
    text-align: center;
+   margin-top: 1rem;
+   font-weight: bold;
    color: red;
  }
 
@@ -101,5 +107,12 @@ display: inline-block;
       padding: 10px;
       border-radius: 10px;
       cursor: pointer;
+}
+.timer-container{
+   margin: 0;
+   padding: 0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
 }
 

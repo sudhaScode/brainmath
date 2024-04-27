@@ -5,11 +5,9 @@ body, html, #root {
 }
 .app-container{
   background-image: url('https://static7.depositphotos.com/1003625/752/i/450/depositphotos_7529921-stock-photo-math-symbols.jpg');
-  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
   display: flex;
+  height: 120vh;
   margin: 0%;
   padding: 0;
   width: 100vw;
